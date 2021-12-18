@@ -1,0 +1,70 @@
+:root {
+    --main-color: #B466C4B5;
+}
+#task-list {
+    list-style-type: none;
+}
+
+#add-task-button {
+    font-family: "Arial";
+    font-size: 15px;
+
+    width: auto;
+    height: 25px;
+
+    border-width: 0px;
+    background-color: var(--main-color);
+    color: white;
+}
+
+#input-task {
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid var(--main-color);
+
+    font-family: "Arial";
+    font-size: 20px;
+}
+
+.delete-btn {
+    background-color: white;
+    border: none;
+    width: 25px;
+    height: 10px;
+    float: right;
+}
+
+.task {
+    font-family: "Arial";
+    font-size: 20px;
+}
+
+.task-checked {
+    text-decoration: line-through;
+}
+
+h1 {
+    font-family: "Arial";
+    font-size: 25px;
+    text-align: center;
+}
+
+li {
+   margin: 20px;
+   width: 100%;
+}
+
+.todolist {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+
+    border: var(--main-color) 1px solid;
+    border-radius: 10px;
+
+    width: 500px;
+    margin: 20px auto;
+}
+
+
